@@ -1,0 +1,82 @@
+2024-12-12 18:37:03 - [MEM ERROR - Data] Test: 6, CPU: 0, Address: 28B27090, Expected: 00008000, Actual: 10008000
+2024-12-12 18:37:03 - [MEM ERROR - Data] Test: 6, CPU: 0, Address: 28B27110, Expected: 00020000, Actual: 10020000
+2024-12-12 18:37:03 - [MEM ERROR - Data] Test: 6, CPU: 0, Address: 28B27190, Expected: 00080000, Actual: 10080000
+2024-12-12 18:37:03 - [MEM ERROR - Data] Test: 6, CPU: 0, Address: 28B27210, Expected: 00200000, Actual: 10200000
+2024-12-12 18:37:57 - poll_timings_icelake - freq_mult=12
+2024-12-12 18:37:57 - poll_timings_icelake - [Ch 0] TC_PRE=2A0A5613 TC_ODT=04930010 (19-19-19-43)
+2024-12-12 18:37:57 - poll_timings_icelake - [Ch 1] TC_PRE=2A0A5613 TC_ODT=04930010 (19-19-19-43)
+2024-12-12 18:37:57 - poll_timings_icelake - MC_BIOS_REQ=00000012 (REQ_DATA=18, REQ_TYPE=0, GEAR=0)
+2024-12-12 18:37:57 - poll_timings_icelake - MC_BIOS_DATA=00000012 (MC_FREQ=18, MC_FREQ_TYPE=0, GEAR=0)
+2024-12-12 18:37:57 - poll_timings_icelake - SA_PERF_STATUS=001A2F201B00082A (qclk_ratio=10, qclk_ref=0)
+2024-12-12 18:37:57 - poll_timings_icelake - BCLK_FREQ=000185C4000185C4
+2024-12-12 18:37:57 - get_mem_ctrl_timings - [0-0-0] 1330 MT/s (19-19-19-43)
+2024-12-12 18:37:57 - Current mem timings: 1330 MT/s (19-19-19-43)
+2024-12-12 18:37:57 - Current CPU temperature: 88C
+2024-12-12 18:38:57 - poll_timings_icelake - freq_mult=12
+2024-12-12 18:38:57 - poll_timings_icelake - [Ch 0] TC_PRE=2A0A5613 TC_ODT=04930010 (19-19-19-43)
+2024-12-12 18:38:57 - poll_timings_icelake - [Ch 1] TC_PRE=2A0A5613 TC_ODT=04930010 (19-19-19-43)
+2024-12-12 18:38:57 - poll_timings_icelake - MC_BIOS_REQ=00000012 (REQ_DATA=18, REQ_TYPE=0, GEAR=0)
+2024-12-12 18:38:57 - poll_timings_icelake - MC_BIOS_DATA=00000012 (MC_FREQ=18, MC_FREQ_TYPE=0, GEAR=0)
+2024-12-12 18:38:57 - poll_timings_icelake - SA_PERF_STATUS=001A1B201700082A (qclk_ratio=10, qclk_ref=0)
+2024-12-12 18:38:57 - poll_timings_icelake - BCLK_FREQ=000185C4000185C4
+2024-12-12 18:38:57 - get_mem_ctrl_timings - [0-0-0] 1330 MT/s (19-19-19-43)
+2024-12-12 18:38:57 - Current mem timings: 1330 MT/s (19-19-19-43)
+2024-12-12 18:38:57 - Current CPU temperature: 90C
+2024-12-12 18:39:57 - poll_timings_icelake - freq_mult=12
+2024-12-12 18:39:57 - poll_timings_icelake - [Ch 0] TC_PRE=2A0A5613 TC_ODT=04930010 (19-19-19-43)
+2024-12-12 18:39:57 - poll_timings_icelake - [Ch 1] TC_PRE=2A0A5613 TC_ODT=04930010 (19-19-19-43)
+2024-12-12 18:39:57 - poll_timings_icelake - MC_BIOS_REQ=00000012 (REQ_DATA=18, REQ_TYPE=0, GEAR=0)
+2024-12-12 18:39:57 - poll_timings_icelake - MC_BIOS_DATA=00000012 (MC_FREQ=18, MC_FREQ_TYPE=0, GEAR=0)
+2024-12-12 18:39:57 - poll_timings_icelake - SA_PERF_STATUS=001A1B201500082A (qclk_ratio=10, qclk_ref=0)
+2024-12-12 18:39:57 - poll_timings_icelake - BCLK_FREQ=000185C4000185C4
+2024-12-12 18:39:57 - get_mem_ctrl_timings - [0-0-0] 1330 MT/s (19-19-19-43)
+2024-12-12 18:39:57 - Current mem timings: 1330 MT/s (19-19-19-43)
+2024-12-12 18:39:57 - Current CPU temperature: 90C
+2024-12-12 18:40:02 - MtSupportRunAllTests - Test execution time: 183.431s (Test 6 cumulative error count: 96, buffer full count: 0)
+2024-12-12 18:40:02 - Running test #7 (Test 7 [Moving inversions, 32-bit pattern])
+2024-12-12 18:40:02 - MtSupportRunAllTests - Setting random seed to 0x668F8B0E
+2024-12-12 18:40:02 - MtSupportRunAllTests - Start time: 2827510 ms
+2024-12-12 18:40:02 - Start memory range test (0x0 - 0x5B0800000)
+2024-12-12 18:40:26 - [MEM ERROR - Data] Test: 7, CPU: 0, Address: 28B26F70, Expected: EFFFFFFF, Actual: FFFFFFFF
+2024-12-12 18:40:26 - [MEM ERROR - Data] Test: 7, CPU: 0, Address: 28B27EF8, Expected: 00000001, Actual: 10000001
+2024-12-12 18:40:26 - [MEM ERROR - Data] Test: 7, CPU: 0, Address: 28B26F70, Expected: 40000000, Actual: 50000000
+2024-12-12 18:40:26 - [MEM ERROR - Data] Test: 7, CPU: 0, Address: 28B268E0, Expected: 10000000, Actual: 00000000
+2024-12-12 18:40:26 - [MEM ERROR - Data] Test: 7, CPU: 0, Address: 28B26F70, Expected: 00000001, Actual: 10000001
+2024-12-12 18:40:26 - [MEM ERROR - Data] Test: 7, CPU: 0, Address: 28B27EF8, Expected: 00000010, Actual: 10000010
+2024-12-12 18:40:26 - [MEM ERROR - Data] Test: 7, CPU: 0, Address: 28B26F70, Expected: 00000008, Actual: 10000008
+2024-12-12 18:40:28 - [MEM ERROR - Data] Test: 7, CPU: 0, Address: 28B27E48, Expected: FFFFFFEF, Actual: EFFFFFEF
+2024-12-12 18:40:28 - [MEM ERROR - Data] Test: 7, CPU: 0, Address: 28B26F70, Expected: 00008000, Actual: 10008000
+2024-12-12 18:40:28 - [MEM ERROR - Data] Test: 7, CPU: 0, Address: 28B27E48, Expected: FFFFFF7F, Actual: EFFFFF7F
+2024-12-12 18:40:28 - [MEM ERROR - Data] Test: 7, CPU: 0, Address: 28B26F70, Expected: 00020000, Actual: 10020000
+2024-12-12 18:40:29 - [MEM ERROR - Data] Test: 7, CPU: 0, Address: 28B27E48, Expected: FFFFBFFF, Actual: EFFFBFFF
+2024-12-12 18:40:29 - [MEM ERROR - Data] Test: 7, CPU: 0, Address: 28B26F70, Expected: 08000000, Actual: 18000000
+2024-12-12 18:40:29 - [MEM ERROR - Data] Test: 7, CPU: 0, Address: 28B27EF8, Expected: 80000000, Actual: 90000000
+2024-12-12 18:40:29 - [MEM ERROR - Data] Test: 7, CPU: 0, Address: 28B26F70, Expected: 20000000, Actual: 30000000
+2024-12-12 18:40:29 - [MEM ERROR - Data] Test: 7, CPU: 0, Address: 28B27EF8, Expected: 00000001, Actual: 10000001
+2024-12-12 18:40:29 - [MEM ERROR - Data] Test: 7, CPU: 0, Address: 28B26F70, Expected: 40000000, Actual: 50000000
+2024-12-12 18:40:30 - [MEM ERROR - Data] Test: 7, CPU: 0, Address: 28B27EF8, Expected: 00000040, Actual: 10000040
+2024-12-12 18:40:30 - [MEM ERROR - Data] Test: 7, CPU: 0, Address: 28B26F70, Expected: 00000010, Actual: 10000010
+2024-12-12 18:57:02 - [MEM ERROR - Data] Test: 8, CPU: 0, Address: 28B26F70, Expected: 65A1D49E, Actual: 75A1D49E
+2024-12-12 18:57:03 - [MEM ERROR - Data] Test: 8, CPU: 0, Address: 28B245F8, Expected: A5A1289D, Actual: B5A1289D
+2024-12-12 18:57:03 - [MEM ERROR - Data] Test: 8, CPU: 0, Address: 28B26F70, Expected: 6667A2C2, Actual: 7667A2C2
+2024-12-12 18:57:03 - [MEM ERROR - Data] Test: 8, CPU: 0, Address: 28B268E0, Expected: D69398C9, Actual: C69398C9
+2024-12-12 18:57:03 - [MEM ERROR - Data] Test: 8, CPU: 0, Address: 28B26F70, Expected: A483197D, Actual: B483197D
+2024-12-12 18:57:03 - [MEM ERROR - Data] Test: 8, CPU: 0, Address: 28B27EF8, Expected: ACD2EAC0, Actual: BCD2EAC0
+2024-12-12 18:57:03 - [MEM ERROR - Data] Test: 8, CPU: 0, Address: 28B26F70, Expected: A4E3F54C, Actual: B4E3F54C
+2024-12-12 18:57:03 - [MEM ERROR - Data] Test: 8, CPU: 0, Address: 28B27EF8, Expected: E0818206, Actual: F0818206
+...
+2024-12-12 21:44:45 - Cleanup - Unlocking all memory ranges...
+2024-12-12 21:44:45 - All memory ranges successfully unlocked
+2024-12-12 21:44:47 - Test result: FAIL (Errors: 897)
+2024-12-12 21:44:49 - Display test result summary
+2024-12-12 22:18:55 - Enabling graphics mode
+2024-12-12 22:18:55 - Get screen size
+2024-12-12 22:18:55 - Current screen size: 1920 x 1080
+2024-12-12 22:18:55 - poll_timings_icelake - freq_mult=12
+2024-12-12 22:18:55 - poll_timings_icelake - [Ch 0] TC_PRE=22084610 TC_ODT=038F0010 (15-16-16-35)
+2024-12-12 22:18:55 - poll_timings_icelake - [Ch 1] TC_PRE=22084610 TC_ODT=038F0010 (15-16-16-35)
+2024-12-12 22:18:55 - poll_timings_icelake - MC_BIOS_REQ=00000012 (REQ_DATA=18, REQ_TYPE=0, GEAR=0)
+2024-12-12 22:18:55 - poll_timings_icelake - MC_BIOS_DATA=00000012 (MC_FREQ=18, MC_FREQ_TYPE=0, GEAR=0)
+2024-12-12 22:18:55 - poll_timings_icelake - SA_PERF_STATUS=001AE8201E000822 (qclk_ratio=8, qclk_ref=0)
+2024-12-12 22:18:55 - poll_timings_icelake - BCLK_FREQ=000185C4000185C4
+2024-12-12 22:18:55 - get_mem_ctrl_timings - [0-0-0] 1064 MT/s (15-16-16-35)
